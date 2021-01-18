@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/ralabsweather/static/css/main.b18b4704.chunk.css",
+    "main.js": "/ralabsweather/static/js/main.c94681d8.chunk.js",
+    "main.js.map": "/ralabsweather/static/js/main.c94681d8.chunk.js.map",
+    "runtime-main.js": "/ralabsweather/static/js/runtime-main.6c0deae3.js",
+    "runtime-main.js.map": "/ralabsweather/static/js/runtime-main.6c0deae3.js.map",
+    "static/css/2.ae9f1eb3.chunk.css": "/ralabsweather/static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.7cae89f6.chunk.js": "/ralabsweather/static/js/2.7cae89f6.chunk.js",
+    "static/js/2.7cae89f6.chunk.js.map": "/ralabsweather/static/js/2.7cae89f6.chunk.js.map",
+    "static/js/3.3df65c97.chunk.js": "/ralabsweather/static/js/3.3df65c97.chunk.js",
+    "static/js/3.3df65c97.chunk.js.map": "/ralabsweather/static/js/3.3df65c97.chunk.js.map",
+    "index.html": "/ralabsweather/index.html",
+    "static/css/2.ae9f1eb3.chunk.css.map": "/ralabsweather/static/css/2.ae9f1eb3.chunk.css.map",
+    "static/css/main.b18b4704.chunk.css.map": "/ralabsweather/static/css/main.b18b4704.chunk.css.map",
+    "static/js/2.7cae89f6.chunk.js.LICENSE.txt": "/ralabsweather/static/js/2.7cae89f6.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ralabsweather/static/media/1538665284.69ac72c7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c0deae3.js",
+    "static/css/2.ae9f1eb3.chunk.css",
+    "static/js/2.7cae89f6.chunk.js",
+    "static/css/main.b18b4704.chunk.css",
+    "static/js/main.c94681d8.chunk.js"
+  ]
+}
