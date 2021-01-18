@@ -9,7 +9,7 @@ const Weather = props => (
             <p>Weather details: {props.main}, {props.description}</p>
             <p>Sunset: {props.sunset}</p>
          </div> : 
-         <h1>Wait few seconds your information download</h1>}
+         <h1>Wait few seconds your information download...</h1>}
          <p className="error">{props.error}</p>
          </div>
     );

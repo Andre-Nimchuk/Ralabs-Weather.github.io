@@ -16,9 +16,16 @@ constructor(props) {
       main: undefined,
       sunset: undefined,
       loading: true,
+      inputValue: '',
       error: undefined
     };
   }
+
+    onChange = (e) => {
+      this.setState({
+          inputValue: e.target.value
+      })
+    }
 
     async gettingWeatherImmediately(lat, lon) {
 
@@ -121,10 +128,11 @@ constructor(props) {
               <Info />
              </div>
               <div className="col-sm-7 form">
-                <Form weatherMethod={this.gettingWeather} />
+                <Form weatherMethod={this.gettingWeather} onChange={this.onChange} value={this.state.inputValue}/>
                   <Weather 
                     temp={this.state.temp}
                     city={this.state.city}
+                    loading={this.state.loading}
                     country={this.state.country}
                     description={this.state.description}
                     main={this.state.main}
