@@ -88,7 +88,7 @@ constructor(props) {
 
     if (city) {
         const api_url = await 
-        fetch(`htts://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`);
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`);
         const data = await api_url.json();
         /* console.log(data); */
         let sunset = data.sys.sunset;
